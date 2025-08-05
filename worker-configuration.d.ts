@@ -2,7 +2,9 @@
 export {};
 
 declare interface Env {
-  // Declare suas variáveis de ambiente aqui
-  MY_SECRET_KEY: string;
-  OTHER_VALUE?: string;
+  // Declare aqui os bindings que você usa no seu Worker com Hono
+  // Por exemplo:
+  MY_SECRET: string;
+  DB_URL: string;
+  KV_NAMESPACE?: KVNamespace; // se estiver usando armazenamento KV
 }
