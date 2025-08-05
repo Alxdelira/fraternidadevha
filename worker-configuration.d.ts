@@ -2,7 +2,7 @@
 export {};
 
 declare interface Env {
-  // Declare aqui as variáveis de ambiente que você usa no worker
-  MY_SECRET?: string;
-  SOME_KEY?: string;
+  // Declare suas variáveis de ambiente aqui
+  MY_SECRET_KEY: string;
+  OTHER_VALUE?: string;
 }
